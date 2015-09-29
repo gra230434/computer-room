@@ -1,0 +1,598 @@
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Helvetica, Arial, 'LiHei Pro', 'Noto Sans CJK', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header
+{
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+
+}
+.container
+{
+	width: 1080px;
+	margin: 0 auto;
+}
+.logo
+{
+	float:left;
+}
+.logo h1 a
+{
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #1C97CA;
+	font-size: 30px;
+	font-weight: 100;
+	padding: 10px 0px;
+	display: block;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	
+}
+.menu
+{
+	float: right;
+}
+.menu ul li
+{
+	display: inline-block;
+	padding: 33px 15px;
+}
+.menu ul li a
+{
+	float:right;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #4e4f4f;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: color 0.3s ease-in;
+}
+.menu ul li a:hover
+{
+	color: #1C97CA;
+}
+.banner
+{
+	background: url(images/background.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 150px 0px;
+	cursor: default;
+}
+.header-text
+{
+	text-align:center;
+	color: #242424;
+}
+.big-text
+{
+	font-size: 40px;
+	line-height: 50px;
+	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	font-weight: 700;
+}
+.header-text h2
+{
+	font-size: 50px;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	line-height: 60px;
+}
+.small-text
+{
+	width: 65%;
+	margin: 0 auto;
+	font-size: 18px;
+	font-family: 'Microsoft JhengHei', sans-serif;
+	font-weight: 500;
+	line-height: 40px;
+}
+
+.color-border
+{
+	background:url(images/color_border.jpg) repeat-x scroll center top;
+	width: 100%;
+	float: left;
+	display: block;
+	height: 5px;
+}
+
+/*標頭字 CSS*/
+h2.text-head
+{
+	color: #1c86ee;
+	font-size: 35px;
+	font-weight: 500;
+	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	text-align: center;
+}
+/*標頭說明 CSS*/
+p.text-desc
+{
+	color: #888;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	line-height: 60px;
+	text-align: center;
+}
+
+.download
+{
+	text-align: center;
+	height: 400px;
+	padding: 80px 0px 80px;
+}
+
+.download-section
+{
+	text-align: center;
+}
+
+.download-section ul li
+{
+	width: 360px;
+	margin: 50px 0px;
+	display: block;
+	text-align: center;
+	float: left;
+}
+.download-icon
+{
+	background:url(images/feature-icons.png) no-repeat;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+.icon1
+{
+	background-position: -1px -1px;
+}
+.icon2
+{
+	background-position: -68px -1px;
+}
+.icon3
+{
+	background-position: -136px -1px;
+}
+.download-section ul li h4
+{
+	font-size: 25px;
+	color: #1c86ee;
+	font-family: 'Microsoft JhengHei', sans-serif;
+	line-height: 50px;
+	margin-top: 10px;
+}
+.download-section ul li p
+{
+	color: #aab1bf;
+	font-size: 18px;
+	line-height: 25px;
+	width: 90%;
+	margin: 0 auto;
+	font-weight: 400;
+	font-family: 'Microsoft JhengHei', sans-serif;
+}
+.download-section ul li a p
+{
+	color: #FF3300;
+}
+
+.download-section ul li a
+{
+	text-decoration: none;
+}
+
+.stories
+{
+	padding: 80px 0px;
+	float: left;
+	width: 100%;
+	background: #f1f1f1;
+}
+.stories-section ul li
+{
+	width: 318px;
+	margin: 40px 20px 0px;
+	border-radius: 5px;
+	background-color: #fff;
+	float: left;
+	transition: all 0.3s ease-in;
+}
+.stories-section ul li a
+{
+	text-decoration: none;
+}
+.story-img img
+{
+	width: 318px;
+	height: 200px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.story-box
+{
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: none;
+	text-align: center;
+	padding: 10px 0px 20px;
+}
+.story-box h4
+{
+	color: #1c86ee;
+	font-size: 22px;
+	font-family:  'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	line-height: 50px;
+}
+.story-box p
+{
+	color: #aab1bf;
+	font-family: 'Microsoft JhengHei', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	text-align:left;
+	margin: 0px 40px;
+}
+.stories-section ul li:hover
+{
+	box-shadow: 0px 0px 6px 0px #ccc;
+}
+.contact
+{
+	padding: 80px 0px;
+	width: 100%;
+	float: left;
+	background-color: #D8D8D8;
+}
+
+.contact-post
+{
+	margin-top: 10px;
+}
+
+.contact-post h3
+{
+	color: #484848;
+	font-size: 25px;
+	font-family:  'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	text-align: center;
+	line-height: 65px;
+}
+
+.contact-post p
+{
+	color: #484848;
+	font-size: 18px;
+	font-family: 'Microsoft JhengHei', sans-serif;
+	text-align: center;
+	line-height: 25px;
+}
+
+.contact-box
+{
+	margin: auto;
+	width: 580px;
+}
+
+.contact-box ul li
+{
+    width: 270px;
+    margin: 20px 10px 10px;
+    height: 127px;
+    border-radius: 5px;
+    background-color: #fff;
+    float: left;
+}
+
+.contact-box h2
+{
+	color: #1c86ee;
+	font-size: 22px;
+	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	text-indent: 15px;
+	line-height: 25px;
+	margin-top: 15px;
+}
+
+.contact-box h3
+{
+	color: #1c86ee;
+	font-size: 16px;
+	font-family: 'Microsoft JhengHei', sans-serif;
+	text-indent: 15px;
+	line-height: 25px;
+}
+
+.contact-box p
+{
+	color: #000000;
+	font-size: 18px;
+	font-family: 'Microsoft JhengHei', sans-serif;
+	text-indent: 15px;
+	line-height: 25px;
+}
+
+.member
+{
+	padding: 40px 0px 0px;
+	width: 100%;
+	float: left;
+	background-color: #f1f1f1;
+}
+
+.member-section
+{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.member-section ul li
+{
+	width: 360px;
+	margin: 0px 20px;
+	display: block;
+	text-align: center;
+	background-color: #fff;
+	float: left;
+}
+
+.member-slave
+{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.member-slave ul li
+{
+	width: 300px;
+	margin: 0px 20px 80px;
+	display: block;
+	text-align: center;
+	background-color: #fff;
+	float: left;
+}
+
+.memberbox
+{
+	height: 90px;
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: none;
+	padding: 10px 0px 20px;
+}
+
+
+.memberbox-slave
+{
+	height: 65px;
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: none;
+	padding: 10px 0px 20px;
+}
+
+.member h2
+{
+	color: #1c86ee;
+	font-size: 22px;
+	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	line-height: 25px;
+	margin-top: 15px;
+}
+
+.member p
+{
+	color: #000000;
+	font-size: 14px;
+	font-family: 'Microsoft JhengHei', sans-serif;
+	line-height: 25px;
+}
+
+.member-section img
+{
+	width: 360px;
+	height: 200px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.member-slave img
+{
+	width: 300px;
+	height: 200px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+form input
+{
+	background: none repeat scroll 0% 0% #F7F6F6;
+	padding: 15px;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: none;
+	border: 2px solid #f7f6f6;
+	transition: all 0.5s ease-in;
+	margin-left: -20px;
+}
+form textarea
+{
+	width: 100%;
+    border-radius: 5px;
+    box-shadow: none;
+    background: none repeat scroll 0% 0% #F7F6F6;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+	height: 180px;
+	margin-top: 30px;
+	font-family: inherit;
+	border: 2px solid #f7f6f6;
+	font-family: 'Open Sans', sans-serif;
+	resize: none;
+	transition: all 0.5s ease-in;
+	margin-left: -20px;
+}
+button.submit
+{
+	background: #1C97CA;
+border: medium none;
+color: #FFF;
+padding: 15px 10px;
+font-size: 18px;
+font-weight: 600;
+font-family: "Open Sans",sans-serif;
+transition: all 0.3s ease 0s;
+margin-top: 20px;
+transition: background 0.3s ease-in;
+cursor: pointer;
+display: block;
+margin: 30px auto 0px;
+border-radius : 5px;
+}
+button.submit:hover
+{
+	background:#888;
+}
+form input:focus
+{
+	border: 2px solid #888;
+	background-color: #fff;
+}
+form textarea:focus
+{
+	border: 2px solid #888;
+	background-color: #fff;
+}
+.footer
+{
+	width: 100%;
+	background-color: #373A42;
+	float: left;
+	padding: 50px 0px;
+	text-align: center;
+}
+.footer p.copyright {
+    color: #7f7f7f;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer p.copyright a
+{
+	color: #7f7f7f;
+	text-decoration: none;
+	border-bottom: 1px dotted #7f7f7f;
+}
+
+.footer p.copyright a:hover {
+	color: #FF7F7F;
+	border-bottom: 1px dotted #FF7F7F;
+}
+
+ul.socialmedia {
+    margin: 0;
+    list-style:none;
+    margin-top: 25px;
+}
+ul.socialmedia li {
+    display: inline-block;
+    margin-left: 15px;
+	margin-right: 15px;
+    color: #585c65;
+    font-size: 26px;
+}
+ul.socialmedia li a {
+    
+    color: #585c65;
+    font-size: 26px;
+}
+
+
+i.icon-facebook {
+    transition: all 0.3s;
+}
+i.icon-facebook:hover {
+    height: 100%;
+    color: #93a9d5;
+}
+i.icon-dribbble {
+    transition: all 0.3s;
+}
+i.icon-dribbble:hover {
+    height: 100%;
+    color: #ea4c89;
+}
+
+ul.socialmedia li a {
+    text-decoration: none;
+}
+.responsive-menu-button
+{
+	float: right;
+	padding: 24px 0px;
+}
+#mobile-header {
+display: none;
+}
