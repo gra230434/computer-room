@@ -37,8 +37,8 @@
 
 .servicemaster h2{
 	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
-	font-size: 20px;
-	padding-top: 30px;
+	font-size: 22px;
+	padding-top: 35px;
 }
 
 .servicemaster p{
@@ -54,8 +54,8 @@
 
 .serviceslave h2{
 	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
-	font-size: 20px;
-	padding-top: 30px;
+	font-size: 22px;
+	padding-top: 35px;
 }
 
 .serviceslave p{
@@ -71,8 +71,8 @@
 
 .servicecloud h2{
 	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
-	font-size: 20px;
-	padding-top: 30px;
+	font-size: 22px;
+	padding-top: 35px;
 }
 
 .servicecloud p{
@@ -83,7 +83,7 @@
 
 .service ul li {
 	border: 1px solid #666666;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-left: 50px;	
 }
 
@@ -116,13 +116,13 @@
 }
 
 .service-text h2{
-	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
-	font-size: 22px;
+	font-family: 'Microsoft JhengHei', sans-serif;
+	font-size: 20px;
 	padding: 5px 0px 5px;
 }
 
 .service-text p{
-	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	font-family: 'Microsoft JhengHei', sans-serif;
 	font-size: 18px;
 	padding: 0px 0px 5px;
 }
