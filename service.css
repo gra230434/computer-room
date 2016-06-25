@@ -1,0 +1,150 @@
+.second-menu {
+	width: 100%;
+	height: auto;
+}
+.second-menu ul li
+{
+	display: inline-block;
+	padding: 30px 15px 0px;
+}
+.second-menu ul li a
+{
+	float:right;
+	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	text-decoration: none;
+	color: #4e4f4f;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: color 0.3s ease-in;
+}
+.second-menu ul li a:hover
+{
+	color: #1C97CA;
+}
+
+.service {
+	margin-bottom: 30px;
+	width: 100%;
+	height: auto;
+}
+
+.servicemaster {
+	background-color: #fff;
+	padding-bottom: 1px;
+}
+
+.servicemaster h2{
+	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	font-size: 22px;
+	padding-top: 35px;
+}
+
+.servicemaster p{
+	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.serviceslave {
+	background-color: #e5e5e5;
+	padding-bottom: 1px;
+}
+
+.serviceslave h2{
+	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	font-size: 22px;
+	padding-top: 35px;
+}
+
+.serviceslave p{
+	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.servicecloud {
+	background-color: #cccccc;
+	padding-bottom: 1px;
+}
+
+.servicecloud h2{
+	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	font-size: 22px;
+	padding-top: 35px;
+}
+
+.servicecloud p{
+	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.service ul li {
+	border: 1px solid #666666;
+	margin-top: 30px;
+	margin-left: 50px;	
+}
+
+.service-box {
+	border: 3px solid #73AD21;
+	background-color: #f2f2f2;
+	height: auto;
+}
+
+.service-img {
+	float: left;
+	margin-top: 5px;
+	width: 120px;
+	height: 120px;
+}
+
+.service-img img{
+	width: 68%;
+	height: 68%;
+	margin-top: 16%;
+	margin-left: 16%;
+}
+
+.service-text{
+	height: auto;
+	padding-top: 15px;
+	padding-left: 120px;
+	padding-bottom: 15px;
+	left: 120px;
+}
+
+.service-text h2{
+	font-family: 'Microsoft JhengHei', sans-serif;
+	font-size: 20px;
+	padding: 5px 0px 5px;
+}
+
+.service-text p{
+	font-family: 'Microsoft JhengHei', sans-serif;
+	font-size: 18px;
+	padding: 0px 0px 5px;
+}
+
+.download-botton {
+	float: right;
+	margin: 10px 0px 0px 15px;
+	padding: 10px 10px 0px 0px;
+}
+
+.download-botton a{
+	background-color:#00bfff;
+	padding:10px;
+	font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	font-size:18px;
+	text-decoration:none;
+	color:#fff;
+	border: solid 1px #aab1bf;
+	border-radius: 5px;
+	transition: color 0.7s ease-in;
+}
+.download-botton a:hover{
+	background-color: #ccf2ff;
+	color: #000;
+}
